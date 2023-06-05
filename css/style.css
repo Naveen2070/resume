@@ -180,3 +180,19 @@ li:before {
     top: 50%;
     transform: translateY(-50%);
 }
+
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 14px;
+	  }
+	
+	  .landing h1,
+	  .landing h2 {
+		font-size: 24px;
+	  }
+	
+	  .full-resume table,
+	  .full-resume ul {
+		font-size: 12px;
+	  }
+	}	
